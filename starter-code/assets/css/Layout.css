@@ -1655,7 +1655,7 @@ article:last-child {
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
     /* Basic */
     html,
     body {
@@ -1832,7 +1832,7 @@ article:last-child {
 
 /* Mobile */
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1000px) {
     /* Basic */
     body,
     input,
