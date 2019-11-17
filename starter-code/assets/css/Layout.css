@@ -1527,10 +1527,11 @@ article:last-child {
 }
 
 #main>section.one {
-    background-color: rgb(21, 8, 133);
-    background-image: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+    /* background-color: rgb(21, 8, 133); */
+    /* background-image: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat; */
     padding: 15px;
     color: orange;
+    position: relative;
 }
 
 #main>section.two {
@@ -1889,4 +1890,12 @@ article:last-child {
     #footer .copyright li:first-child {
         margin-top: 0;
     }
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
 }
