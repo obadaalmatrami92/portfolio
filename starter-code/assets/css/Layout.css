@@ -1430,7 +1430,7 @@ article:last-child {
 #nav ul li a span:before {
     position: absolute;
     left: 0;
-    color: #41484c;
+    color: #0a4a6e;
     text-align: center;
     width: 1.25em;
     line-height: 1.75em;
@@ -1439,11 +1439,11 @@ article:last-child {
 #nav ul li a.active {
     background: rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-    color: #fff;
+    color: rgb(180, 180, 180);
 }
 
 #nav ul li a.active span:before {
-    color: #e27689;
+    color: #eb4f6b;
 }
 
 
@@ -1452,7 +1452,7 @@ article:last-child {
 #footer {
     margin-left: 375px;
     text-align: center;
-    background-color: #dce3e2;
+    background-color: #044b61;
     padding: 3em 0 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     font-size: 0.8em;
@@ -1527,20 +1527,22 @@ article:last-child {
 }
 
 #main>section.one {
-    background-color: #81918E;
-    background-image: url("../../images/machu-picchu.jpg");
+    background-color: rgb(21, 8, 133);
+    background-image: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+    padding: 15px;
+    color: orange;
 }
 
 #main>section.two {
-    background-color: #1e2d2dcc;
+    background-color: #035252cc;
 }
 
 #main>section.three {
-    background-color: #1c2536f0;
+    background-color: #042563f0;
 }
 
 #main>section.four {
-    background-color: #311a27f2;
+    background-color: #41102bf2;
 }
 
 
